@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+#background-img {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    
+}
+
+div {
+    margin: 0;
+}
+#images-section {
+    text-align: center;
+    width: 100%;
+
+
+}
+
+#images {
+    width: 100%;
+    background-color: rgb(117, 117, 117) ;
+    padding: 90px;
+    margin: ;
+}
+
+#desk-img {
+    width: 15%;
+    border-radius: 50%;
+    border: 20px solid rgb(55, 55, 55);
+    margin: 10px 85px;
+}
+
+#graphic-img {
+    width: 15%;
+    border-radius: 50%;
+    border: 20px solid rgb(55, 55, 55);
+    margin: 10px 85px;
+}
+
+#person-img {
+    width: 15%;
+    border-radius: 50%;
+    border: 20px solid rgb(55, 55, 55);
+    margin: 10px 85px;
+}
+
