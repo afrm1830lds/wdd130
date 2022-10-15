@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Odibee+Sans&family=Source+Sans+Pro:wght@300&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,8 +9,14 @@
     width: 100px;
 }
 
+#logo_link {
+    padding-top: 5px;
+} 
+
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 
 }
 
@@ -16,10 +24,14 @@ nav a {
     text-align: center;
     color: #008cd7 ;
     text-decoration: none;
+    padding: 35px;
 }
 
 .home-title {
     color: rgb(225, 238, 243) ;
+    font-family:"Odibee Sans", "Arsenal", sans-serif ;
+    font-size: 2em;
+
 }
 
 #hero-msg h1 {
@@ -47,7 +59,18 @@ main section {
 
 body{
     background-color: #4791ff;
+    font-family: "Arsenal", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
+
 }
+
+h2 {
+    margin: 0;
+}
+
 header {
     background-color: #c3ebff;
 }
@@ -64,12 +87,16 @@ nav a:hover {
     background-color: whitesmoke;
     color: #122569;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
 }
 
 .join {
     background-color: whitesmoke;
     color: #122569;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
 }
 
 .book:hover {
@@ -88,6 +115,9 @@ nav a:hover {
 
 .msg {
     background-color: #008cd7;
+    line-height: 1.5em;
+    padding: 35px;
+
     
 }
 .msg h2 {
@@ -96,10 +126,12 @@ nav a:hover {
 
 .msg p {
     color: aliceblue;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #88bce2;
-    
+    padding: 25px 50px;
 }
 
 footer h3 {
@@ -118,4 +150,8 @@ footer a:hover {
 
 footer p {
     font-size: 1.2em;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
