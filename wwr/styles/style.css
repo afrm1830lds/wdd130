@@ -51,7 +51,7 @@ nav a {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 125px;
-    background-color: #4791ff22;
+    
 }
 
 .home-title {
@@ -218,6 +218,7 @@ footer {
     background-color: #88bce2;
     padding: 25px 50px;
     margin-top: 200px;
+    margin-bottom: 5px;
     
 }
 
@@ -322,11 +323,13 @@ h3 {
     color: rgb(255, 255, 255);
     margin-bottom: 30px;
     background-color: #1d44cf;
+    padding: 10px;
+    
 }
 
 .questions {
     text-align: center;
-    text-decoration: dotted;
+    padding: auto;
 }
 
 
@@ -347,6 +350,7 @@ h3 {
     margin: 0 auto;
     box-sizing: border-box;
 }
+
 
 h2 {
     margin: 0;
@@ -401,6 +405,10 @@ h2 {
     color: #ffffff;
     
 }
+.sectionOneFaq p {
+    padding: 10px;
+
+}
 
 .sectionTwoFaq {
     width: 100%;
@@ -409,12 +417,18 @@ h2 {
     grid-row: 3/4;
     color: #ffffff;
 }
+.sectionTwoFaq p {
+    padding: 10px;
+}
 
 .sectionThreeFaq {
     margin: 25px 15px 0;
     grid-column: 3/9;
     grid-row: 4/5;
     color: #ffffff;
+}
+.sectionThreeFaq {
+    padding: 10px;
 }
 
 
@@ -435,9 +449,15 @@ h2 {
     grid-column: 4/8;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #7db6f7;
+    
+   
 }
     
-
+.joinFaq {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .footerFaq {
     display: flex;
     justify-content: space-around;
@@ -445,7 +465,7 @@ h2 {
     background-color: #88bce2;
     padding: 25px 50px;
     margin-top: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     
 }
 
