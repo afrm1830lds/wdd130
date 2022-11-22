@@ -413,15 +413,18 @@ h3 {
     font-size: 22px;
 }
 
-.home-gridFaq {
+.home-gridV {
     margin: 20px;
-    display: grid;
+    display: inline;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     text-align: center;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
+#run {
+    width: 5px;
+}
 
 h2 {
     margin: 0;
@@ -557,6 +560,31 @@ h2 {
 .footerFaq .social img {
     padding-top: 15px;
 } 
+
+/*
+Volunteers
+*/
+
+/*
+Help
+*/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
 
 
 @media screen and (max-width: 900px) {
