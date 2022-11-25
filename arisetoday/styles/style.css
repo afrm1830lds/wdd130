@@ -286,7 +286,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #88bce2;
+    background-color: #fefefe;
     padding: 25px 50px;
     margin-top: 200px;
     margin-bottom: 5px;
@@ -315,76 +315,10 @@ footer .social img {
     padding-top: 15px;
 }
 
-/* FAQ page CSS */
-
-
-#contentFaq {
-    max-width: 1600px;
-    margin: 0 auto;
-
-}
-
-.headerFaq {
-    background-color: #122569;
-    display: grid;
-    grid-template-columns: 150px auto;
-}
-
-.logoFaq {
-    width: 88px;
-}
-
-#hero-boxFaq {
-    grid-column: 1/4;
-    grid-row: 1/3;
-    z-index: -1;
-}
-
-
-#logo_linkFaq {
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;  
-} 
 
 
 
-.navFaq a {
-    padding: 35px;
-    text-align: center;
-    color: #ffffff ;
-    text-decoration: none;
-}
 
-#heroFaq {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: auto;
-}
-
-
-
-#hero-msgFaq {
-    grid-column: 1/11;
-    grid-row: 3/5;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.home-titleFaq {
-    color: rgb(225, 238, 243) ;
-    font-family:"Odibee Sans", "Arsenal", sans-serif ;
-    font-size: 2em;
-    margin-top: -122px;
-    text-align: center;
-    
-
-}
-
-#hero-msgFaq h1 {
-    text-align: center;
-    color: #eef8ff;
-}
 #hero-msg h4 {
     text-align: center;
 }
@@ -405,13 +339,7 @@ h3 {
 
 
 
-.bodyFaq {
-    margin: 0;
-    padding: 0;
-    background-color: #4791ff;
-    font-family: "Arsenal", Helvetica, sans-serif;
-    font-size: 22px;
-}
+
 
 .home-gridV {
     margin: 20px;
@@ -431,36 +359,7 @@ h2 {
    
 }
 
-#hero-imgFaq {
-    width: 100%;
-    background-color: #a6d0ff;
-}
 
-.navFaq {
-    display: flex;
-    justify-content: space-around;
-}
-
-.navFaq a:hover {
-    background-color: rgb(96, 107, 250);
-}
-
-.joinFaq { 
-    background-color: whitesmoke;
-    color: #122569;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
-
-.card-imgFaq {
-    border: 10px solid #122569;
-    width: 100%;
-    transition: 0.5s;
-    box-shadow: 5px 5px 10px #0b1127;
-}
 
 .card-img:hover {
     opacity: 0.6;
@@ -471,110 +370,31 @@ h2 {
 .divImg {
     text-align: center;
 }
-.sectionOneFaq {
-    width: 100%;
-    margin: 25px 15px 0;
-    grid-column: 3/9;
-    grid-row: 2/3;
-    color: #ffffff;
-    
-}
-.sectionOneFaq p {
-    padding: 10px;
 
-}
 
-.sectionTwoFaq {
-    width: 100%;
-    margin: 25px 15px 0;
-    grid-column: 3/9;
-    grid-row: 3/4;
-    color: #ffffff;
-}
-.sectionTwoFaq p {
-    padding: 10px;
-}
+/* Volunteers */
 
-.sectionThreeFaq {
-    margin: 25px 15px 0;
-    grid-column: 3/9;
-    grid-row: 4/5;
-    color: #ffffff;
-}
-.sectionThreeFaq {
-    padding: 10px;
+.externalLink {
+    max-width: 100%;
+    border: #eef8ff;
 }
 
 
-#backgroundFaq {
-    height: 200px;
-    background-color: #9747ff;
-    width: 100%;
-    grid-column:1/11;
-    grid-row: 1/3;
-}
-
-.msgFaq {
-    margin: 20px 20px;
-    background-color: #008cd7;
-    line-height: 1.5em;
-    text-align: center;
-    padding: 35px;
-    grid-column: 4/8;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #7db6f7;
-    
-   
-}
-    
-.joinFaq {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.footerFaq {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #88bce2;
-    padding: 25px 50px;
-    margin-top: 50px;
-    margin-bottom: 5px;
-    
-}
-
-.footerFaq a {
-    color: #1d44cf;
-    text-decoration: none;
-}
-
-.footerFaq a:hover {
-    color: aliceblue;
-    text-decoration: underline;
-}
-
-.footerFaq p {
-    font-size: 1.2em;
-}
-
-.footerFaq .social img {
-    padding-top: 15px;
-} 
-
-/*
-Volunteers
-*/
-
-/*
-Help
-*/
+/* Help */
 
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
   }
+
+  #imgGrid {
+    background-color: #e7b68c;
+  }
   
+  #cardsG {
+    width: 20%;
+  }
   /* Create two equal columns that sits next to each other */
   .column {
     flex: 50%;
