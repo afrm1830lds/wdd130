@@ -86,7 +86,16 @@ nav a {
     margin-top: -23px;
 }
 
+#boxOne {
+    grid-column: 2/5; 
+}
+#boxTwo {
+    grid-column: 7/10;
+}
 
+.roundImg {
+    border-radius: 100px;
+}
 
 .button-box {
     text-align: center;
