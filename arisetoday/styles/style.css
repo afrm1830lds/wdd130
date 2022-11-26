@@ -36,7 +36,7 @@ nav a {
     text-decoration: none;
 }
 
-#hero {
+#mainTittle {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
@@ -50,7 +50,7 @@ nav a {
 
 }
 
-#hero-msg {
+#main-msg {
     grid-column: 1/10;
     grid-row: 1/2;
     margin-top: 125px;
@@ -68,27 +68,25 @@ nav a {
 
 }
 
-#hero-msg h1 {
+#main-msg h1 {
     text-align: center;
     color: #eef8ff;
 }
-#hero-msg h4 {
+#main-msg h4 {
     text-align: center;
     margin-top: -20px;
+    color: rgb(255, 106, 0);
     
 }
 
-#hero-msg p {
+#main-msg p {
     text-align: center;
     margin: 0 auto;
     width: 93%;
     margin-top: -23px;
 }
 
-h4 {
-    color: rgb(255, 106, 0);
-   
-}
+
 
 .button-box {
     text-align: center;
@@ -175,21 +173,21 @@ nav a:hover {
  
 }
 
-.rivers-card {
+.cardOne {
     width: 25%;
     padding: 10px;
     grid-column: 2/4;
     text-align: center;
 }
 
-.camping-card {
+.cardTwo {
     width: 25%;
     padding: 10px;
     grid-column: 6/8;
   
 }
 
-.rapids-card {
+.cardThree {
     width: 25%;
     padding: 10px;
     grid-column: 8/10;
