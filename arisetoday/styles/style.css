@@ -94,7 +94,7 @@ nav a {
 }
 
 .roundImg {
-    border-radius: 100px;
+    border-radius: 50%;
 }
 
 .button-box {
@@ -143,12 +143,12 @@ nav {
 }
 
 nav a:hover {
-    background-color: rgb(116, 224, 236);
+    background-color: #FEEC64;
 }
 
 .book, .join { 
     background-color: whitesmoke;
-    color: #122569;
+    color: #E3923E;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -157,10 +157,10 @@ nav a:hover {
 }
 
 .card-img {
-    border: 10px solid #122569;
+    border: 10px solid #FEFEF7;
     width: 100%;
     transition: 0.5s;
-    box-shadow: 5px 5px 10px #0b1127;
+    box-shadow: 5px 5px 10px #FEEC64;
 }
 
 .card-img:hover {
@@ -205,11 +205,11 @@ nav a:hover {
 
 .largeImg {
   
-    display: grid;
+  
     width: 100%;
     grid-column: 1/11;
     text-align: center;
-    justify-items: center;
+    margin: 0 auto;
 
 }
 
@@ -236,11 +236,19 @@ nav a:hover {
     max-width: 1600px;
     
 }
-
-#roundImg {
+.msgE {
+    background-color: #fffefe;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    width: 100%;
+    grid-column: 1/11;
+    color: #A66734;
+    font-size: 25px;
     max-width: 1600px;
-    margin: 25px 0;
+    margin-top: -50px;
 
+    
 }
 
 
@@ -279,7 +287,7 @@ nav a:hover {
 
 
 .msg h2 {
-    color: #192d77;
+    color: #faf9f8;
     
 }
 
