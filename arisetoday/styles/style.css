@@ -356,14 +356,6 @@ h3 {
 
 
 
-.home-gridV {
-    margin: 20px;
-    display: inline;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    text-align: center;
-    margin: 0 auto;
-    box-sizing: border-box;
-}
 
 #run {
     width: 5px;
@@ -389,9 +381,112 @@ h2 {
 
 /* Volunteers */
 
+
+.home-gridV {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
 .externalLink {
-    max-width: 100%;
+    width: 100%;
+    max-width: 1600px;
     border: #eef8ff;
+
+
+}
+
+
+.purposePar {
+
+    width: 700px;
+    font-size:180%;
+    grid-column: 2/4;
+
+}
+.purposeImg {
+    
+    grid-column: 5/9;
+}
+
+.imgPurpose {
+    width: 140%;
+}
+
+
+.oP {
+    text-align: center;
+}
+
+.home-gridV2 {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.imgWhat {
+    width: 170%;
+    
+}
+
+.whatImg {
+    grid-column: 2/5;
+
+}
+
+.whatPar {
+
+    width: 700px;
+    font-size: 170%;
+    grid-column: 8/11;
+}
+
+.textDiv {
+    display: inline;
+}
+
+.bannP {
+    width: 500px;
+    font-size: 100%;
+    
+}
+.backgroundV {
+    display: grid;
+    background-color: #f17c15;
+    width: 100%;
+    max-width: 1600px;
+    
+    margin: 25px 0;
+    justify-items: center;
+    
+    text-align: center;
+    grid-column:1/11;
+
+}
+.oP2 {
+    text-align: center;
+}
+
+.card-imgV {
+    max-width: 1600px;
+}
+
+.serveT {
+    width: 75%;
+    font-size: 160%;
+}
+
+.gallery img {
+    width: 20%;
+    justify-content: space-around;
+    margin: 2%;
+    border: solid 3px #ffffff;
+
 }
 
 
