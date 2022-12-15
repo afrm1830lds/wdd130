@@ -35,6 +35,7 @@ nav a {
     text-align: center;
     color: #101010 ;
     text-decoration: none;
+    font-family: Fredoka One;
 }
 
 #mainTittle {
@@ -86,6 +87,8 @@ font-family: Fredoka One;
     text-align: center;
     margin-top: -20px;
     color: rgb(255, 106, 0);
+    font-family: Fredoka One;
+    font-size: 137%;
     
 }
 
@@ -94,6 +97,8 @@ font-family: Fredoka One;
     margin: 0 auto;
     width: 93%;
     margin-top: -23px;
+    font-family: Raleway;
+    font-size: 137%;
 }
 
 #boxOne {
@@ -244,6 +249,7 @@ nav a:hover {
     margin: 15px 0;
     font-size: 25px;
     max-width: 1600px;
+    font-family: Fredoka one;
     
 }
 .msgE {
@@ -258,7 +264,19 @@ nav a:hover {
     max-width: 1600px;
     margin-top: -50px;
 
+
     
+}
+
+.msgE h2 {
+    font-family: Fredoka one;
+
+}
+
+.msgE p {
+    font-family: Raleway;
+    font-size: 100%;
+
 }
 
 
@@ -288,6 +306,16 @@ nav a:hover {
 
 }
 
+.leftBox p {
+   
+    font-family: Raleway;
+
+    
+
+}
+
+
+
 .rightBox {
   
     justify-items: center;
@@ -295,6 +323,27 @@ nav a:hover {
 
 }
 
+.rightBox p {
+   
+    font-family: Raleway;
+
+    
+
+}
+
+.leftT {
+    font-family: Raleone;
+}
+
+.rightT {
+    font-family: Raleone;
+
+}
+
+.small {
+    font-family: Raleway;
+    font-size: 120%;
+}
 
 .msg h2 {
     color: #faf9f8;
@@ -307,6 +356,11 @@ nav a:hover {
     font-size: 0.8em;
     padding-bottom: 15px;
 }
+
+.button-box h6 {
+    font-family: Raleway;
+    font-size: 110%;
+}
 footer {
     display: flex;
     justify-content: space-around;
@@ -315,6 +369,7 @@ footer {
     padding: 25px 50px;
     margin-top: 200px;
     margin-bottom: 5px;
+    font-family: Raleway;
     
 }
 
