@@ -470,6 +470,7 @@ h2 {
     width: 600px;
     font-size:180%;
     grid-column: 2/4;
+    font-family: Raleone;
 
 }
 .purposeImg {
@@ -484,6 +485,7 @@ h2 {
 
 .oP {
     text-align: center;
+    font-family: Fredoka one;
 }
 
 .home-gridV2 {
@@ -509,6 +511,7 @@ h2 {
     width: 700px;
     font-size: 170%;
     grid-column: 6/9;
+    font-family: Raleone;
 }
 
 .textDiv {
@@ -544,6 +547,8 @@ h2 {
 .serveT {
     width: 75%;
     font-size: 160%;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .gallery img {
